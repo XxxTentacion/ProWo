@@ -1,0 +1,63 @@
+﻿body {
+	margin: 0;
+	padding: 0;
+}
+
+#navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4c4c4c;
+}
+
+.link {
+    float: left;
+}
+
+.link a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.link a:hover, .active { 
+    background-color: #3d3d3d;
+}
+
+button {
+    background-color: #4286f4;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type=text], input[type=password], textarea, select { 
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+textarea {
+	height: 250px;
+	resize: none;
+}
+
+.container {
+    padding: 16px;
+	border: 3px solid #f1f1f1;
+	max-width: 500px;
+    margin: auto;	
+}
+
+.status {
+	color: #FF0000;
+}

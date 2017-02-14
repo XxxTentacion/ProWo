@@ -1,0 +1,32 @@
+Status Codes
+
+1 - Anmeldung benötigt					"Sie müssen angemeldet sein, um auf diese Seite zu gelangen!"
+
+2 - Nutzername
+	1 - Fehlend					"Bitte geben sie ihren Benutzernamen ein!"
+	2 - Fehlend + Passwort fehlt			"Bitte geben sie ihren Benutzernamen und ihr Passwort ein!"
+	3 - Falsch / Sonderzeichen			"Falscher Nutzername. Bitte versuchen sie es erneut!"
+	
+3 - Passwort
+	1 - Fehlend 					"Bitte geben sie ihr Passwort ein!"
+	2 - Falsch					"Falsches Passwort. Bitte geben sie ihr Passwort erneut ein!"
+	3 - Fehlend	(alt)				"Bitte geben sie ihr jetziges Passwort ein!"
+	4 - Fehlend	(neu)				"Bitte geben sie ihr neues Passwort ein!"
+	5 - Fehlend (neu2)				"Bitte wiederholen sie ihr neues Passwort!"
+	6 - Falsch (alt)				"Ihr jetziges Passwort ist falsch. Bitte geben sie es erneut ein!"
+	7 - Falsch (neu/neu2)				"Die neuen Passwörter stimmen nicht überein!"
+	8 - Sonderzeichen (neu)				"Das neue Passwort darf keine Sonderzeichen enthalten!"
+	
+4 - Projekte
+	1 - Fehlend					"Bitte wählen sie alle 3 Projekte!"
+	2 - Falsch					"Bitte wählen sie 3 verschiedene Projekte!"
+	
+5 - Kontakt 
+	1 - Fehlend (email)				"Bitte geben sie ihre E-Mail Adresse ein!"
+	2 - Fehlend (nachricht)				"Bitte geben sie eine Nachricht an!"
+	3 - Falsch (email)				"Bitte geben sie eine gültige E-Mail Adresse ein!"
+	
+6 - Erfolg
+	1 - Projekte					"Ihre Projekte wurden eingetragen!"
+	2 - Passwort					"Ihr Passwort wurde erfolgreich geändert!"
+	3 - Nachricht					"Ihre Nachricht wurde erfolgreich gesendet!"
